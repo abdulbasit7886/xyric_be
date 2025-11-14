@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 import env from "./env";
+
+//@ts-ignore
 import { logger } from "../utils/logger";
 
 export const connectDB = async (): Promise<void> => {
